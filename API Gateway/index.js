@@ -64,7 +64,7 @@ app.use('/',async(req,res,next)=>{
 });
 
 
-app.use('/AuthHome',createProxyMiddleware({target:'http://localhost:800',changeOrigin : true}));
+app.use('/AuthHome',createProxyMiddleware({target:'http://localhost:3002',changeOrigin : true}));
 
 
 
